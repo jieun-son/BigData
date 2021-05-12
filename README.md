@@ -1,4 +1,4 @@
-# Python, R을 활용한 빅데이터 분석
+# Python, R을 활용한 빅데이터 분석 공부
 ## _since 2021-05-10_
 
 [![tistory](https://i.ibb.co/rfBsTzr/001-1.png)](https://dreamyhand.tistory.com)
