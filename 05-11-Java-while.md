@@ -80,3 +80,51 @@ while (a < 10) {
 ```
 위의 예는 1부터 10까지의 수 중 홀수만을 출력하는 예이다. a가 10보다 작은 동안 a는 1만큼씩 계속 증가한다. if (a % 2 == 0) (2로 나누었을 때 나머지가 0인 경우)이 참이 되는 경우는 a가 짝수일 때이다. 즉, a가 짝수이면 continue 문장을 수행한다. 이 continue문은 while문의 맨 처음(조건문: a<10)으로 돌아가게 하는 명령어이다.  
 따라서 위의 예에서 a가 짝수이면 System.out.println(a)는 수행되지 않을 것이다.  
+
+### do ~ while문
+우선 수행한 후 조건이 만족되면 수행, 아니면 수행하지 않는다.
+```sh
+do{
+	최초 한번은 무조건 실행. 두번째부터는 조건식이 참이면 계속 수행할 명령문들;
+} while(조건식);
+``` 
+  
+"키보드로부터 짝수를 입력할 때까지 수를 입력받고 짝수를 입력하면 입력된 값을 출력하는 프로그램을 구현하시오."
+```sh
+public static void main(String[] args) {
+		int num;
+		Scanner sc = new Scanner(System.in);
+		do{
+			System.out.print("반드시 짝수를 입력하시오 : ");
+			num = sc.nextInt();
+		}while(num%2 != 0);
+		System.out.printf("입력하신 수는 %d이고 짝수", num);
+		sc.close();
+	}
+  ```
+    
+  "컴퓨터가 발생한 로또번호 한 개(1~45사이)를 맞추는 프로그램을 구현하시오."
+  ```sh
+  public static void main(String[] args) {
+	int lotto, su, min=1, max=45;
+	lotto = (int)(Math.random()*45)+1;
+	System.out.println(lotto);
+	Scanner sc = new Scanner(System.in);
+	do {
+		System.out.printf("%d~%d사이의 숫자를 맞춰 보세요 :",min, max);
+		su = sc.nextInt();
+		if(su<min || su>max) {
+			System.out.println("범위를 잘 봐");
+		}else if(su>lotto) {
+			max = su-1;
+		}else if(su<lotto){
+			min = su+1;
+		}else {
+			System.out.println("로또번호 맞췄어요");
+			break;
+		}
+	}while(true);
+	sc.close();
+}
+  ```
+
