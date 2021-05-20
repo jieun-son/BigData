@@ -1,0 +1,12 @@
+package com.lect.ex08_person;
+public class TestMain {
+	public static void main(String[] args) {
+		Person papa = new Person("¾Æºü°õ","¶×¶×ÇØ");
+		Person mom  = new Person("¾ö¸¶°õ","³¯¾ÀÇØ"); 
+		papa.intro();
+		mom.intro();
+		System.out.println("~~~~~~~~~~~~~~~~~~~~~~");
+		Baby child1 = new Baby();
+		System.out.println(child1.getName());
+	}
+}

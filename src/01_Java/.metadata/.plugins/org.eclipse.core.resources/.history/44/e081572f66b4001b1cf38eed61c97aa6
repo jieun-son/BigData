@@ -1,0 +1,21 @@
+package com.lect.ex1_student;
+
+public class Student {
+	private String name;
+	private int kor;
+	private int eng;
+	private int mat;
+	private int tot;
+	private double avg;
+	public Student() {}
+	public Student(String name, int kor, int eng, int mat) {
+		this.name = name; this.kor = kor;
+		this.eng = eng;   this.mat = mat;
+		tot = kor+eng+mat;
+		avg = tot/3.0;
+	}
+	public void infoPrint() {
+		System.out.printf("\t %s \t %d \t %d \t %d \t %d \t %.1f\n",
+	             name, kor,  eng,   mat,  tot,  avg);
+	}
+}

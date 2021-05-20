@@ -1,0 +1,10 @@
+package com.lect.ex05_override;
+public class ChildClass extends ParentClass{
+	public ChildClass() {
+		System.out.println("Child의 매개변수 없는 생성자");
+	}
+	public ChildClass(int i) {
+		System.out.println("Child의 매개변수 있는 생성자");
+	}
+	
+}

@@ -1,0 +1,12 @@
+package com.lect.ex3_man;
+// Man kim = new Man(30, 170, 60, "010-9999-9999");
+// Man kang = new Man(170, 60, "010-9999-9999");
+// Man yi = new Man(170, 60);
+public class Man {
+	private int age;
+	private int height;
+	private int weight;
+	private String phoneNum;
+	public Man() {} // 디폴트 생성자
+	
+}

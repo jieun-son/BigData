@@ -1,0 +1,7 @@
+package com.lect.ex04_shape;
+
+public class Circle extends Shape {
+
+	
+
+}

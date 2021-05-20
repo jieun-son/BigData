@@ -1,0 +1,5 @@
+package com.lect.ex05_lunch;
+
+public abstract class LunchMenu {
+
+}

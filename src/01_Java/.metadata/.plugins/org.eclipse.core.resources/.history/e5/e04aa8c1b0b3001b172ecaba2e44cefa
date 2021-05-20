@@ -1,0 +1,14 @@
+package com.lec.rect;
+public class Rect {
+	private int width;
+	private int height;
+	public int area() {
+		return width * height;
+	}
+	// setter
+	public int setWidth(int width) {
+		this.width = width;
+	}
+	// getter
+	
+}

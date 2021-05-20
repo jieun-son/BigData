@@ -1,0 +1,11 @@
+package com.lect.ex02;
+
+public class Child extends Super {
+
+	@Override
+	public void method1() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.lect.ex08_volume;
+
+public interface IVolume {
+
+}

@@ -1,0 +1,8 @@
+package com.lect.ex05_lunch;
+
+public class TestMain {
+	public static void main(String[] args) {
+		LunchMenu child1 = new Child1(1000, 1000, 200, 300, 500, 150);
+		System.out.println("child1형 친구들의 식대 "+child1.calculate()*10);
+	}
+}

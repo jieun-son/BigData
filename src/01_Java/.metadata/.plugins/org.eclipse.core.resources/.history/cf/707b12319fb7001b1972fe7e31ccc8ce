@@ -1,0 +1,11 @@
+package com.lect.ex03;
+
+public class TestMain {
+	public static void main(String[] args) {
+		GrandChild g = new GrandChild();
+		
+		Child c = new GrandChild();
+		
+		Super s = new GrandChild();
+	}
+}

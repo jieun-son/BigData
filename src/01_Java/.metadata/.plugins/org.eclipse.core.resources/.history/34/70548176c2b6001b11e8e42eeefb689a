@@ -1,0 +1,10 @@
+package com.lect.ex05_override;
+
+public class TestMain {
+	public static void main(String[] args) {
+		ParentClass pObj1 = new ParentClass();
+		ParentClass pOjb2 = new ParentClass(1);
+		pObj1.method1();
+		pObj2.method2();
+	}
+}

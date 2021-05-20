@@ -1,0 +1,13 @@
+package com.lect.ex8_static_student;
+
+public class Student {
+	private int no;
+	private String name;
+	private int kor;
+	private int eng;
+	private int mat;
+	private int tot;
+	private double avg;
+	private static int count; 
+	
+}

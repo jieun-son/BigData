@@ -1,0 +1,4 @@
+package com.lect.ex07;
+public class B implements I{
+	
+}

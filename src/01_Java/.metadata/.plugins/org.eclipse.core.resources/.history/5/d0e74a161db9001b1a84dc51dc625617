@@ -1,0 +1,11 @@
+package com.lect.ex05;
+
+public class TestChildClass extends TestClass implements I11 {
+
+	@Override
+	public void m11() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

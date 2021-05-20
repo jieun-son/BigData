@@ -1,0 +1,14 @@
+package com.lect.ex05;
+public class TestMain {
+	public static void main(String[] args) {
+		TestChildClass obj = new TestChildClass();
+		System.out.printf("i1=%d, i2=%d, i3=%d, i11=%d\n",
+						TestClass.i1, I2.i2, TestClass.i3, obj.i11);
+		obj.m1();
+		obj.m2();
+		obj.m3();
+		obj.m11();
+		System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~");
+		TestClass obj2 = obj;
+	}
+}

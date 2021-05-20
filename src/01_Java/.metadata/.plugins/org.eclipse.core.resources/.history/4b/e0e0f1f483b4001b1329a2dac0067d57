@@ -1,0 +1,6 @@
+package com.lect.ex6_product;
+public class ProductTestMain {
+	public static void main(String[] args) {
+		System.out.println(Product.count);
+	}
+}

@@ -1,0 +1,22 @@
+package com.lect.ex10_lib;
+
+public class Book implements ILendable {
+	private String bookNo;    // 책 청구번호 ex.890ㄱ-105나
+	private String bookTitle; // 책 제목 ex.이것이베개다
+	private String writer;    // 저자
+	private String borrower;  // 대출인(입력)
+	private String checkOutDate;//대출일(입력)
+	private 
+	@Override
+	public void checkOut(String borrower, String checkOutData) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void checkIn() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,9 @@
+package com.lec.rect;
+
+public class Rect {
+	private int width;
+	private int height;
+	public int area() {
+		return width * height;
+	}
+}

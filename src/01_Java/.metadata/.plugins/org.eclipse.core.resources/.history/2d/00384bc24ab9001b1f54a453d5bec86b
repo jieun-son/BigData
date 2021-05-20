@@ -1,0 +1,44 @@
+package com.lect.ex10_lib;
+import java.util.Scanner;
+public class LibMain {
+	public static void main(String[] args) {
+		Book[] books = {new Book("890ㄱ-101나", "자바", "홍길동"),
+				new Book("891ㄱ-102나", "오라클", "김길동"),
+				new Book("891ㄱ-103나", "웹", "마길동"),
+				new Book("891ㄱ-104나", "파이썬", "김길동"),
+				new Book("891ㄱ-105나", "하둡", "박길동")};
+		Scanner sc = new Scanner(System.in);
+		int fn, idx =0; // fn(기능번호) - 1:대출, 2:반납, 3:도서현황, 0:종료
+		String bTitle, borrower, checkOutDate; // 대출을 원하는 책이름, 대출인, 대출일
+		do {
+			System.out.print("1:대출 | 2:반납 | 3:도서현황들 | 0:종료");
+			fn = sc.nextInt();
+			switch (fn) {
+			case 1:
+				System.out.println("대출로직은 여기");
+				break;
+			case 2:
+				System.out.println("반납로직은 여기");
+				break;
+			case 3:
+				System.out.println("도서 현황입니다");
+				for(Book book : books) {
+					System.out.println(book);
+				}
+				break;
+			}
+		}while(fn!=0);
+		System.out.println("안녕히 가세요");
+	}
+}
+
+
+
+
+
+
+
+
+
+
+

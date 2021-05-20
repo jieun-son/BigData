@@ -1,0 +1,11 @@
+package com.lect.ex05_lunch;
+
+public class Child1 extends LunchMenu {
+
+	@Override
+	public int calculate() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

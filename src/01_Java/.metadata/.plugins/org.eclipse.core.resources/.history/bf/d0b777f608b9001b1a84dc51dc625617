@@ -1,0 +1,10 @@
+package com.lect.ex01;
+public class TestMain {
+	public static void main(String[] args) {
+		InterfaceClass obj = new InterfaceClass();
+		System.out.println(obj.CONSTANT_NUM);
+		System.out.println(obj.CONSTANT_STRING);
+		System.out.println(InterfaceClass.CONSTANT_NUM);
+		System.out.println(InterfaceClass.CONSTANT_STRING);
+	}
+}

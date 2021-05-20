@@ -1,0 +1,17 @@
+package com.lect.ex3_man;
+public class ManMain {
+	public static void main(String[] args) {
+		 Man kim = new Man(30, 170, 60, "010-9999-9999");
+		 Man kang = new Man(170, 60, "010-9999-9999");
+		 Man yi = new Man(170, 60);
+		 Man[] student = {kim, kang, yi};
+		 yi.setPhoneNum("010-7777-7777");
+		 student[1].setPhoneNum("010-8888-8888"); // kang.setPhoneNum("010-8888-8888")
+		 double bmi = kim.calculateBMI();
+		 if(bmi>24.5) {
+			 System.out.println(kim.getPhoneNum()+"님은 비만이니 건강조심하세요");
+		 }else {
+			 System.out.println(kim.getPhoneNum()+"님은 건강상 다이어트금지");
+		 }
+	}
+}

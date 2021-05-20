@@ -1,0 +1,23 @@
+package com.lect.ex02;
+
+public class Amodel implements IAcor{
+	private String model = "A¸ðµ¨";
+	@Override
+	public void dmbReceive() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void lte() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void tvremotecontrol() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

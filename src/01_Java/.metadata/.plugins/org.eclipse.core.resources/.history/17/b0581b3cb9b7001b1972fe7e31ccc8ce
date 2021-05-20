@@ -1,0 +1,11 @@
+package com.lect.ex07_employee;
+
+public class SalaryEmployee extends Employee {
+
+	@Override
+	public int computePay() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

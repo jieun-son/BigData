@@ -1,0 +1,8 @@
+package com.lect.ex1_square;
+
+public class SquareMain {
+	public static void main(String[] args) {
+		Square s1 = new Square();
+		System.out.println("s1의 한변의 길이는 "+s1.getSide());
+	}
+}

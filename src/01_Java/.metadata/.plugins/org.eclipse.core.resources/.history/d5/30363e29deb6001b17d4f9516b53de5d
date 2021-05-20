@@ -1,0 +1,7 @@
+package com.lect.ex09store;
+
+public class TestMain2 {
+	public static void main(String[] args) {
+		StoreNum1 st1 = new StoreNum1("주택가1호점");
+	}
+}

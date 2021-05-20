@@ -1,0 +1,6 @@
+package com.lect.ex03;
+// Super : method1(추상), method2(일반)
+// Child : method1(추상), method2(일반)
+public class Child extends Super{
+
+}

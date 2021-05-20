@@ -1,0 +1,22 @@
+package com.lect.ex02;
+
+public class Bmodel implements IAcor {
+	private String mode = "B모델";
+	@Override
+	public void dmbReceive() {
+		System.out.println(model+"은 DMB 송수신 가능합니다");
+	}
+
+	@Override
+	public void lte() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void tvremotecontrol() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,10 @@
+package com.lect.ex07_super_dot;
+
+public class TestMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

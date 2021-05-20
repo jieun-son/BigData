@@ -1,0 +1,11 @@
+package com.lect.ex07;
+
+public class A implements I {
+
+	@Override
+	public void method() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

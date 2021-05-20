@@ -1,0 +1,65 @@
+package com.lect.ex11_account;
+public class Account {
+	private String accountNo; // 계좌번호
+	private String ownerName; // 예금주
+	private int balance;      // 잔액
+	public Account() {} // 디폴트 생성자 
+	public Account(String accountNo, String ownerName) {
+		this.accountNo = accountNo;
+		this.ownerName = ownerName;
+	}
+	public Account(String accountNo, String ownerName, int balance) {
+		this.accountNo = accountNo;
+		this.ownerName = ownerName;
+		this.balance = balance;
+	}
+	public void deposit(int money) { // 저금
+		balance += money;
+		System.out.printf("%s(%s)님 %d원 저금하여 잔액 %d\n",
+				    ownerName, accountNo, money, balance);
+	}
+	public void withdraw(int money) { // 인출
+		if(balance >= money) {
+			balance -= money;
+			System.out.printf("%s(%s)님 %d원 인출하여 잔액 %d\n",
+					ownerName, accountNo, money, balance);
+		}else {
+			System.out.printf("%s(%s)님 잔액 %d원으로 %d원 인출 불가\n",
+					ownerName, accountNo, balance, money);
+		}
+	}
+//	public void printAccount() {
+//		System.out.printf("%s(%s)님 잔액 : %d원\n", ownerName, accountNo, balance);
+//	}
+	@Override
+	public String toString() {
+		return String.format("%s(%s)님 잔액 : %d원", ownerName, accountNo, balance);
+	}
+	public String getAccountNo() {
+		return accountNo;
+	}
+	public void setAccountNo(String accountNo) {
+		this.accountNo = accountNo;
+	}
+	public String getOwnerName() {
+		return ownerName;
+	}
+	public void setOwnerName(String ownerName) {
+		this.ownerName = ownerName;
+	}
+	public int getBalance() {
+		return balance;
+	}
+	public void setBalance(int balance) {
+		this.balance = balance;
+	}
+}
+
+
+
+
+
+
+
+
+

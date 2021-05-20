@@ -1,0 +1,11 @@
+package com.lect.ex11_account;
+
+public class CreditLineAccount extends CheckingAccount {
+	private int creditLine; // 카드 한도
+	public CreditLineAccount(String accountNo, String ownerName, String cardNo) {
+		super(accountNo, ownerName, cardNo);
+	}
+	
+	
+
+}

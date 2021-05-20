@@ -1,0 +1,11 @@
+package com.lect.ex03_point;
+
+public class TestMain {
+	public static void main(String[] args) {
+		Point point = new Point();
+		point.setX(5); point.setY(10);
+		point.pointPrint();
+		System.out.println(point.pointInfoString());
+	}
+
+}

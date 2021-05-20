@@ -1,0 +1,17 @@
+package com.lect.ex11_account;
+public class CreditLineAccount extends CheckingAccount {
+	private int creditLine; // Ä«µå ÇÑµµ
+	public CreditLineAccount(String accountNo, String ownerName, String cardNo,
+			int creditLine) {
+		super(accountNo, ownerName, cardNo);
+		this.creditLine = creditLine;
+	}
+	public CreditLineAccount(String accountNo, String ownerName, int balance,
+			String cardNo, int creditLine) {
+		super(accountNo, ownerName, balance, cardNo);
+		this.creditLine = creditLine;
+	}
+	// new CreditLineAccount("11-11","È«±æµ¿",1000,"1111-2222-3333-4444",2000);
+	//new CreditLineAccount("11-11","È«±æµ¿","1111-2222-3333-4444",2000);
+
+}

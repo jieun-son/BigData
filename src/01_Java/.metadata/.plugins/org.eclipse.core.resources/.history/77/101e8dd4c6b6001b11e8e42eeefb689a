@@ -1,0 +1,5 @@
+package com.lect.ex07_super_dot;
+
+public class ParentClass {
+
+}

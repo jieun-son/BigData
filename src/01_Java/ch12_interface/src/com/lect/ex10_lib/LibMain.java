@@ -1,0 +1,64 @@
+package com.lect.ex10_lib;
+import java.util.Scanner;
+public class LibMain {
+	public static void main(String[] args) {
+		Book[] books = {new Book("890ㄱ-101나", "자바", "홍길동"),
+				new Book("891ㄱ-102나", "오라클", "김길동"),
+				new Book("891ㄱ-103나", "웹", "마길동"),
+				new Book("891ㄱ-104나", "파이썬", "김길동"),
+				new Book("891ㄱ-105나", "하둡", "박길동")};
+		Scanner sc = new Scanner(System.in);
+		int fn, idx =0; // fn(기능번호) - 1:대출, 2:반납, 3:도서현황, 0:종료
+		String bTitle, borrower, checkOutDate; // 대출을 원하는 책이름, 대출인, 대출일
+		do {
+			System.out.print("1:대출 | 2:반납 | 3:도서현황들 | 0:종료");
+			fn = sc.nextInt();
+			switch (fn) {
+			case 0:
+				break;
+			case 1:
+				// (1)책이름입력 -> (2)책조회 -> (3)책state확인 -> 
+				// (4)대출인,대출일 입력 -> (5)대출
+				// (1) 책이름 입력
+				System.out.print("대출할 책이름은? ");
+				bTitle = sc.next(); // 스트링을 입력 받기 위해 next()
+				// (2)책조회
+				for(idx=0 ; idx<books.length ;idx++) {
+					if(books[idx].getBookTitle().equals(bTitle)) {
+						break;
+					}
+				}
+				if(idx==books.length) {
+					System.out.println("본 도서관에는 해당 도서가 없습니다. 죄송합니다");
+				}else { // 도서가 idx번째에 있다
+					// ★★★★★★★★★★★★
+				}
+				break;
+			case 2:
+				System.out.println("반납로직은 여기");
+				break;
+			case 3:
+				System.out.println("도서 현황입니다");
+				for(Book book : books) {
+					System.out.println(book);
+				}
+				break;
+			default:
+				System.out.println("유효하지 않은 기능번호입니다");
+			}
+		}while(fn!=0);
+		System.out.println("안녕히 가세요");
+		sc.close();
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
