@@ -1,7 +1,7 @@
 # Python, R을 활용한 빅데이터 분석 공부
 ## _since 2021-05-10_
 
-[![tistory](https://i.ibb.co/rfBsTzr/001-1.png)](https://dreamyhand.tistory.com)
+[![tistory](https://i.ibb.co/rfBsTzr/001-1.png)](https://dreamyhand.tistory.com){:target="_blank"}
 
 'Python, R을 활용한 빅데이터 시각화 구현' 훈련을 들으며 정리한 자료입니다.
 
