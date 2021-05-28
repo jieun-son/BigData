@@ -3,7 +3,7 @@
 
 [![banner](https://i.ibb.co/rfBsTzr/001-1.png)](https://dreamyhand.tistory.com)
 
-'Python, R을 활용한 빅데이터 시각화 구현' 훈련을 들으며 정리한 자료입니다.
+`Python`, `R`을 활용한 빅데이터 시각화 구현 훈련(혼합)을 수강하며 정리한 자료입니다.
 
 ## 훈련목표
 
