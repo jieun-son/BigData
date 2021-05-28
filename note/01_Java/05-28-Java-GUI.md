@@ -7,10 +7,10 @@
 AWT는 JAVA에서 그래픽 요소를 만들기 위한 컴포넌트들. 예를 들어 버튼, 체크박스 등.
 
 
-(1) 컴포넌트의 배치와 관련된 클래스 : BorderLayout, GridLayout, FlowLayout
-(2) GUI 구성과 관련된 클래스 : Button, Label, Canvas, Checkbox, Choice, Scrollbar, List, Menu, TextComponent, TextArea, TextField, CheckboxGroup
-(3) 그래픽 출력과 관련된 클래스 Color, Font, Rectable, Point, Graphics, Image
-(4) 컨테이너 클래스 그외의 클래스 : Frame, Panel, Window, Container, FileDialog, Demension, Event
+(1) 컴포넌트의 배치와 관련된 클래스 : BorderLayout, GridLayout, FlowLayout  
+(2) GUI 구성과 관련된 클래스 : Button, Label, Canvas, Checkbox, Choice, Scrollbar, List, Menu, TextComponent, TextArea, TextField, CheckboxGroup  
+(3) 그래픽 출력과 관련된 클래스 Color, Font, Rectable, Point, Graphics, Image  
+(4) 컨테이너 클래스 그외의 클래스 : Frame, Panel, Window, Container, FileDialog, Demension, Event  
 
 ### 3.	Swing 컴포넌트?
 Swing은 AWT보다 진보된 기능이라고 생각하면 된다. 진보됐다는 것은 AWT보다 나중에 만들어져, 복잡하고 화려한 컴포넌트를 제공한다는 것이다.
