@@ -1,5 +1,0 @@
-package com.lect.ex6_product;
-public class Product {
-	private int serialNo; // 객체 고유번호
-	public static int count = 100;
-}

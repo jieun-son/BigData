@@ -1,0 +1,11 @@
+package com.lect.ex1_inputStreamOutputStream;
+import java.io.*;
+public class Ex01_inputStream {
+	public static void main(String[] args) {
+		try {
+			InputStream is = new FileInputStream("txtFile/inTest.txt");//(1)
+		} catch (FileNotFoundException e) {
+			System.out.println("예외메세지:파일못찾음 "+e.getMessage());
+		}
+	}
+}

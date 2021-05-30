@@ -1,0 +1,7 @@
+package com.lect.ex03_math;
+
+public class Ex03_random {
+	public static void main(String[] args) {
+		System.out.println((int)(Math.random()*45));
+	}
+}

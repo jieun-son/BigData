@@ -1,0 +1,13 @@
+package com.lect.ex1_inputStreamOutputStream;
+import java.io.*;
+// 1. 파일을 연다(스트림객체 생성) 2. 데이터를 읽는다(1byte단위로 반복) 3.파일을 닫는다
+public class Ex01_inputStream {
+	public static void main(String[] args) {
+		try {
+			InputStream is = new FileInputStream("txtFile/inTest111.txt");
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+}

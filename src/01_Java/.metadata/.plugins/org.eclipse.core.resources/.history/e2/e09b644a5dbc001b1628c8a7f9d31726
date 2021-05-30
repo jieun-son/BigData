@@ -1,0 +1,18 @@
+package com.lect.ex02_date;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.GregorianCalendar;
+public class Ex04_simpleDateformat {
+	public static void main(String[] args) {
+		Date              now1 = new Date();
+		Calendar          now2 = Calendar.getInstance();
+		GregorianCalendar now3 = new GregorianCalendar();
+		SimpleDateFormat sdf = new SimpleDateFormat("yyyy년 MM월 dd일 E요일");
+		/* yyyy(년도 4자리) yy(년도 2자리) M(5) MM(05) d(9) dd(09)
+		 * E 요일
+		 * 
+		 *  /
+		
+	}
+}

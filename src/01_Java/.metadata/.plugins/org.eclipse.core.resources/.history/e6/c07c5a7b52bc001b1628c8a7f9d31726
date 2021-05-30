@@ -1,0 +1,11 @@
+package com.lect.ex01_string;
+
+import java.util.StringTokenizer;
+
+public class Ex11_tokenizing {
+	public static void main(String[] args) {
+		String str = "정해인 유준상 강동원 김윤석 하정우";
+		String str1 = "2021/05/24";
+		StringTokenizer token1 = new StringTokenizer(str); // str을 space구분자로 분할
+	}
+}

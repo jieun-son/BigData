@@ -1,0 +1,13 @@
+package com.lect.ex3_set;
+import java.util.HashSet;
+import java.util.Random;
+public class Ex02_lottoNum {
+	public static void main(String[] args) {
+		HashSet<Integer> lotto = new HashSet<Integer>();
+		Random random = new Random();
+		for(int i=0 ; i<6 ; i++) {
+			lotto.add(random.nextInt(45)+1); // 1~45사이의 정수 난수
+		}
+		System.out.println(lotto);
+	}
+}

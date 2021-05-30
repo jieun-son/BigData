@@ -1,0 +1,10 @@
+package com.lect.ex02_date;
+import java.util.Date;
+public class Ex03_date {
+	public static void main(String[] args) {
+		Date date = new Date();
+		System.out.println(date);
+		int year = date.getYear()+1900;
+		System.out.println(year);
+	}
+}

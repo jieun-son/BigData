@@ -1,0 +1,8 @@
+package com.lect.ex5_lib;
+import java.util.Date;
+public class DateTestMain {
+	public static void main(String[] args) {
+		Date thatDay = new Date(121, 5,1);
+		System.out.println(thatDay);
+	}
+}

@@ -1,0 +1,13 @@
+package com.lect.ex5_printWriter;
+import java.io.OutputStream;
+import java.io.PrintWriter;
+import java.io.Writer;
+public class Ex01 {
+	public static void main(String[] args) {
+		OutputStream os         = null;
+		Writer      writer      = null;
+		PrintWriter printWriter = null;
+		
+		
+	}
+}

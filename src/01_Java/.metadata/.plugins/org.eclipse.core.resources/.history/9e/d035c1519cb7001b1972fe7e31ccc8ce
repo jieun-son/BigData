@@ -1,9 +1,0 @@
-package com.lect.ex02;
-
-public class Child extends Super {
-	@Override
-	public void method1() {
-		System.out.println("Child의 method1() - 추상메소드라 꼭 오버라이드!");
-	}
-
-}

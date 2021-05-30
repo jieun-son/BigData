@@ -1,0 +1,10 @@
+package singleton.step2;
+
+public class FirstClass {
+	public FirstClass() {
+		SingletonClass singletonObject = SingletonClass.getInstance();
+		System.out.println("FirstClass형 객체 생성");
+		System.out.println("i값:"+singletonObject.getI());
+		
+	}
+}

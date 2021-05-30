@@ -1,0 +1,8 @@
+package com.lect.ex01_string;
+
+public class Fiend {
+	private String name;
+	private String phone;
+	private String birthday;
+	
+}

@@ -1,0 +1,9 @@
+package com.lect.ex01_string;
+public class Ex02 {
+	public static void main(String[] args) {
+		String str1 = "abcXabc";
+		String str2 = new String("ABCXabc");
+		String str3 = "    ja va  ";
+		System.out.println("1."+str1.concat(str2));//abcXabcABCXabc
+	}
+}

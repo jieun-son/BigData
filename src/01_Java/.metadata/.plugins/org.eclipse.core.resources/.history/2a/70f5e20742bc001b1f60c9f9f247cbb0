@@ -1,0 +1,13 @@
+package com.lect.ex01_string;
+
+public class Ex09_stringbuilder {
+	public static void main(String[] args) {
+		String st = "abc";
+		StringBuilder str = new StringBuilder("abc");
+		System.out.println("1."+str);
+		str.append("def"); // abcdef
+		System.out.println("2."+str);
+		str.insert(3, "AAA"); // 3번째 index에 AAA를 추가 abcAAAdef
+		System.out.println("3."+str);
+	}
+}

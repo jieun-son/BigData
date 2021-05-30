@@ -1,7 +1,0 @@
-package com.lect.ex11_account;
-
-public class Account {
-	private String accountNo; // 계좌번호
-	private String ownerName; // 예금주
-	private int balance;      // 잔액
-}

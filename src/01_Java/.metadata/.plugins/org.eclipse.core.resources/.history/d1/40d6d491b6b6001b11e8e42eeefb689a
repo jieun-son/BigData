@@ -1,6 +1,0 @@
-package com.lect.ex03_point;
-// Point3D p3 = new Point3D();
-// p3.
-public class Point3D extends Point {
-	private int z;
-}

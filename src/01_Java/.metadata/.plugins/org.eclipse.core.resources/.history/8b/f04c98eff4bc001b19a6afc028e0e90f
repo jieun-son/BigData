@@ -1,0 +1,10 @@
+package com.lect.ex04_object;
+public class Card {
+	private char kind; // ¢½ ¢¿ ¢» ¡Ş
+	private int num;   // 1~13 (a:1, 2~10, king11~13)
+	public Card(char kind, int num) {
+		this.kind = kind;
+		this.num = num;
+	}
+	
+}

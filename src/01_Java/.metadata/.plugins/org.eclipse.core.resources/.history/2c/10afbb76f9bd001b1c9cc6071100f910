@@ -1,0 +1,9 @@
+package com.lect.ex2_map;
+import java.util.Date;
+import java.util.HashMap;
+public class Ex02_FriendHashMap {
+	public static void main(String[] args) {
+		HashMap<String, Friend> friends = new HashMap<String, Friend>();
+		friends.put("ȫ�浿", new Friend("ȫ�浿","9999-9999"));
+	}
+}

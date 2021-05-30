@@ -1,0 +1,8 @@
+package com.lect.ex01_string;
+
+public class Ex09_stringbuilder {
+	public static void main(String[] args) {
+		String st = "abc";
+		StringBuilder str = new String("abc");
+	}
+}

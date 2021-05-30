@@ -1,0 +1,9 @@
+package com.lect.ex2_swing;
+
+import java.awt.event.ActionListener;
+
+import javax.swing.JFrame;
+
+public class Ex01_Friday extends JFrame implements ActionListener{
+
+}

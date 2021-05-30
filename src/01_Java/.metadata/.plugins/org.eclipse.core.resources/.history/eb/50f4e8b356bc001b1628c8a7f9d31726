@@ -1,0 +1,10 @@
+package com.lect.ex02_date;
+import java.util.Calendar;
+import java.util.Scanner;
+public class Ex01_calendar {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		Calendar cal = Calendar.getInstance();
+		System.out.println(cal);
+	}
+}

@@ -1,0 +1,9 @@
+package com.lect.ex01_string;
+public class Ex08_string {
+	public static void main(String[] args) {
+		String str = "Hello~";
+		System.out.println("str의 해쉬코드 : "+str.hashCode());
+		str = "hello";
+		System.out.println("str의 해쉬코드 : "+str.hashCode());
+	}
+}

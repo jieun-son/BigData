@@ -1,8 +1,0 @@
-package com.lect.ex03_point;
-public class Point {
-	private int x;
-	private int y;
-	public void pointPrint() {
-		System.out.println("2차원 좌표값 : " + x + ", " + y);
-	}
-}

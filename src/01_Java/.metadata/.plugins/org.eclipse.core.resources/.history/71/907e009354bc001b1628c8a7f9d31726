@@ -1,0 +1,8 @@
+package com.lect.ex01_string;
+import java.util.StringTokenizer;
+public class Ex12_string_array {
+	public static void main(String[] args) {
+		String str = "정해인 유준상 강동원 김윤석 하정우";
+		StringTokenizer token = new StringTokenizer(str);
+	}
+}

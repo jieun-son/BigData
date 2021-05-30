@@ -1,7 +1,0 @@
-package com.lect.ex3_accessTest;
-
-public class AccessTestMain {
-	public static void main(String[] args) {
-		
-	}
-}

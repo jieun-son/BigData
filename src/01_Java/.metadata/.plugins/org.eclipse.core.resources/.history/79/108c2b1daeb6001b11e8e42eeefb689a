@@ -1,6 +1,0 @@
-package com.lect.ex01_parentChild;
-public class TestMain {
-	public static void main(String[] args) {
-		ChildClass child = new ChildClass();
-	}
-}

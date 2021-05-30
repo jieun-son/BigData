@@ -1,0 +1,11 @@
+package com.lect.ex07_timer;
+import java.util.Timer;
+import java.util.TimerTask;
+public class TimerTestMain {
+	public static void main(String[] args) {
+		System.out.println("Ω√¿€");
+		Timer timer = new Timer(true);
+		TimerTask ex1 = new TimerTaskEx1();
+		TimerTask ex2 = new TimerTaskEx2();
+	}
+}

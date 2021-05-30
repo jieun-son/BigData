@@ -1,0 +1,7 @@
+package com.lect.ex04_object;
+
+public class Ex03_rectangle {
+	public static void main(String[] args) {
+		
+	}
+}

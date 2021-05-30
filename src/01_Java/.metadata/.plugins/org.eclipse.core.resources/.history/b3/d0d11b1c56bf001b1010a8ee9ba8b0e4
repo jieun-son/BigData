@@ -1,0 +1,7 @@
+package com.lect.ex5_printWriter;
+import java.io.PrintWriter;
+public class Ex01 {
+	public static void main(String[] args) {
+		PrintWriter printWriter = null;
+	}
+}

@@ -1,0 +1,9 @@
+package com.lect.ex4_bufferedreader;
+import java.io.*;
+public class Ex {
+	public static void main(String[] args) {
+		Reader reader = null;
+		BufferedReader br = null;
+		reader = new FileReader("txtFile/inTest.txt");
+	}
+}

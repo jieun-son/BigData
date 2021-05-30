@@ -1,0 +1,12 @@
+package com.lect.ex1_awt;
+import java.awt.Button;
+import java.awt.Frame;
+import java.awt.Label;
+import java.awt.TextField;
+public class Ex03_login extends Frame{
+	private Label lbl1;
+	private TextField txtId;
+	private Label lbl2;
+	private TextField txtPw;
+	private Button btnLogin;
+}

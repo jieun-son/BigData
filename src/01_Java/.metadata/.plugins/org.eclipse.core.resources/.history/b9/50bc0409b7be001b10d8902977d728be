@@ -1,0 +1,25 @@
+package com.lect.ex1_inputStreamOutputStream;
+import java.io.*;
+// 1. 파일은 연다 2.읽는다  3. 파일을 닫는다   
+public class Ex02_inputStreamByteArray {
+	public static void main(String[] args) {
+		InputStream is = null;
+		try {
+			is = new FileInputStream("txtFile/inTest.txt");//(1)
+			byte[] bs = new byte[10];
+			while(true) {
+				//int i = is.read(); // 1byte씩 읽기
+				int readByteCount = is.read(bs);
+				if(readByteCount == -1) break;
+				for(byte b : bs) {
+					System.out.print((char)b);
+				}
+				System.out.println();
+			}
+		} catch (FileNotFoundException e) {
+			System.out.println("파일못찾음 : "+e.getMessage());
+		} catch (IOException e) {
+			System.out.println("IO예외 : "+e.getMessage());
+		} 
+	}
+}

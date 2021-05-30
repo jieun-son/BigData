@@ -1,0 +1,8 @@
+package com.lect.ex04_object;
+
+public class Ex01_personTestMain {
+	public static void main(String[] args) {
+		Person p1 = new Person(9201011000006L);
+		Person p2 = new Person(9201011000006L);
+	}
+}

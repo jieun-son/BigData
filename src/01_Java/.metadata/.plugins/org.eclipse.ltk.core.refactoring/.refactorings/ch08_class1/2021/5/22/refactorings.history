@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;ch15_exception/src/com.lect.ex4_newException&apos;&#x0D;&#x0A;- Original project: &apos;ch08_class1&apos;&#x0D;&#x0A;- Destination element: &apos;ch15_exception/src/com.lect.ex4_newException&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     com.lect.ex4_account.Account.java&#x0D;&#x0A;     com.lect.ex4_account.Main.java" description="Copy compilation units" destination="=ch15_exception/src&lt;com.lect.ex4_newException" element1="/src&lt;com.lect.ex4_account{Account.java" element2="/src&lt;com.lect.ex4_account{Main.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1621930209876" units="2" version="1.0"/>
+</session>

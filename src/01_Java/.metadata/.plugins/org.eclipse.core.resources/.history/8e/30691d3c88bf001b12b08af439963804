@@ -1,0 +1,8 @@
+package com.lect.ex1_awt;
+import java.awt.Button;
+import java.awt.Frame;
+import java.awt.Label;
+public class Ex02_Friday extends Frame{
+	private Label lbl1;   // 추가할 컴포넌트를 변수 선언
+	private Button btnExit;
+}

@@ -1,0 +1,13 @@
+package com.lect.ex01_string;
+
+public class Fiend {
+	private String name;
+	private String phone;
+	private String birthday;
+	public Fiend(String name, String phone, String birthday) {
+		this.name = name;
+		this.phone = phone;
+		this.birthday = birthday;
+	}
+	
+}

@@ -1,0 +1,8 @@
+package com.lect.ex4_quiz;
+import java.util.ArrayList;
+import java.util.Scanner;
+public class TestMain1 {
+	Scanner scanner = new Scanner(System.in);
+	String answer, name, phone, address;
+	ArrayList<Customer> customers = new ArrayList<Customer>();
+}

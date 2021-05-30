@@ -1,0 +1,15 @@
+package com.lect.ex04_object;
+public class Rectangle {
+	private int width;
+	private int height;
+	private String color;
+	public Rectangle() {
+		color = "∞À¡§";
+	}
+	public Rectangle(int width, int height, String color) {
+		this.width = width;
+		this.height = height;
+		this.color = color;
+	}
+	
+}

@@ -1,0 +1,27 @@
+package com.lect.ex04_object;
+public class Rectangle {
+	private int width;
+	private int height;
+	private String color;
+	public Rectangle() {
+		color = "검정";
+	}
+	public Rectangle(int width, int height, String color) {
+		this.width = width;
+		this.height = height;
+		this.color = color;
+	}
+	@Override
+	public String toString() {
+		return String.format("가로 %dcm, 세로 %dcm의 %s색 사각형", width, height, color);
+	}
+}
+
+
+
+
+
+
+
+
+

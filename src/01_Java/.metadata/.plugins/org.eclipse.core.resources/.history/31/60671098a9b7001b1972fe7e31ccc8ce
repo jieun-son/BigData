@@ -1,7 +1,0 @@
-package com.lect.ex05_lunch;
-
-public class TestMain {
-	public static void main(String[] args) {
-		LunchMenu child1 = new Child1("child1Çü", rice, bulgogi, soup, banana, milk, almond);
-	}
-}

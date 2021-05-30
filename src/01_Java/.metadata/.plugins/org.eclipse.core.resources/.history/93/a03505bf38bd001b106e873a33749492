@@ -1,0 +1,40 @@
+package com.lect.ex5_lib;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+public class BookLib implements ILendable {
+	private String bookNo;       // 책번호
+	private String bookTitle;    // 책제목
+	private String writer;       // 저자
+	private String borrower;     // 대출인
+	private Date   checkOutDate; // 대출일
+	private byte   state; // 대출중(1)or대출가능(0)
+	public BookLib() { }
+	// Book b = new Book("890ㄱ-01","java","홍길동");
+	public BookLib(String bookNo, String bookTitle, String writer) {
+		this.bookNo = bookNo;
+		this.bookTitle = bookTitle;
+		this.writer = writer;
+		state = STATE_NORMAL;
+	}
+	@Override
+	public void checkOut(String borrower) throws Exception {
+		if(state!=STATE_NORMAL){
+			throw new Exception(bookTitle+"은 대출 중이예요");
+		}
+		this.borrower = borrower;
+		checkOutDate = new Date();
+		state = STATE_BORROWED;
+		System.out.println("\""+bookTitle+"\"이(가) ★대출★되었습니다");
+		System.out.println("[대출인] "+borrower);
+		SimpleDateFormat sdf = new SimpleDateFormat("yyyy년 MM월 dd일(E)");
+		System.out.println("[대출일]"+sdf.format(checkOutDate));
+
+	}
+
+	@Override
+	public void checkIn() throws Exception {
+		// TODO Auto-generated method stub
+
+	}
+
+}

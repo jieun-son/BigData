@@ -1,0 +1,17 @@
+package com.lect.ex1_list;
+import java.util.ArrayList;
+import java.util.LinkedList;
+public class Ex02_LinkedList {
+	public static void main(String[] args) {
+		ArrayList<String> arrayList = new ArrayList<String>();
+		LinkedList<String> linkedList = new LinkedList<String>();
+		linkedList.add("str0"); // 0¹ø ÀÎµ¦½º
+		linkedList.add("str1"); // 1¹ø ÀÎµ¦½º -> 2¹ø ÀÎµ¦½º
+		linkedList.add("str2"); // 2¹ø ÀÎµ¦½º -> 3¹ø ÀÎµ¦½º
+		linkedList.add(1, "1111");// 1¹ø ÀÎµ¦½º
+		System.out.println(linkedList);
+		for(String data : linkedList) {
+			System.out.println(data);
+		}
+	}
+}

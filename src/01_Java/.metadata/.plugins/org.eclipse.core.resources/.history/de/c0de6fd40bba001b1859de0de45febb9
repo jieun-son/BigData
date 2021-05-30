@@ -1,0 +1,14 @@
+package com.lect.ex01_string;
+public class Ex02 {
+	public static void main(String[] args) {
+		String str1 = "abcXabc";
+		String str2 = new String("ABCXabc");
+		String str3 = "    ja va  ";
+		System.out.println("1."+str1.concat(str2));//abcXabcABCXabc
+		System.out.println("2."+str1.substring(3));//3번째부터 끝까지 Xabc
+		System.out.println("3."+str1.substring(3,6));//3번째부터 6번째앞글자까지 Xab
+		System.out.println("4."+str1.length()); // 문자열길이 7
+		System.out.println("5."+str1.toUpperCase()); // 대문자로 ABCXABC
+		System.out.println("6."+str1.toLowerCase()); // 소문자로 abcxabc
+	}
+}

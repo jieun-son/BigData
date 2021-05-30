@@ -1,0 +1,18 @@
+package com.lect.ex3_readerWriter;
+import java.io.*;
+public class Ex02_Writer {
+	public static void main(String[] args) {
+		Writer writer = null;
+		try {
+			writer = new FileWriter("txtFile/outTest.txt"); // 1.파일을 연다
+//			char[] msg = {'안','녕','하','세','요'};
+//			for(char m : msg) {
+//				writer.write(m);
+//			}
+			String str = "안녕하세요\n자바\n비오는 신나는 금요일";
+			writer.write(str);
+		} catch (IOException e) {
+			System.out.println(e.getMessage());
+		}
+	}
+}

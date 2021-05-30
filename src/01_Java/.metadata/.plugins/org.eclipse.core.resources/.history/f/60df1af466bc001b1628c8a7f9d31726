@@ -1,0 +1,36 @@
+package com.lect.ex02_date;
+import java.text.SimpleDateFormat;
+/* new Sawon(“a01”,”홍길동”,Part.COMPUTER)
+데이터 : 사번, 이름, 부서(COMPUTER, PLANNING, DESIGN, ACCOUNTING, HUMANRESOURCES), 입사일.
+생성자 : 사번, 이름, 부서만 매개변수로 들어감. 입사일은 객체생성 당일로 합니다
+메소드: toString()의 return 결과는 다음과 같습니다*/
+import java.util.Date;
+public class Sawon {
+	private String num;
+	private String name;
+	private String part;
+	private Date enterDate;
+	public Sawon(String num, String name, String part) {
+		this.num = num;
+		this.name = name;
+		this.part = part;
+		enterDate = new Date();
+	}
+	@Override
+	public String toString() {//2019년2월2일
+		SimpleDateFormat sdf = new SimpleDateFormat("yyyy년 M월d일");
+		String temp = sdf.format(enterDate);
+		return "[사번]" + num + "\t[이름]" + name + "[부서]" + part + "\t[입사일]" + temp + "\n";
+	}
+}
+
+
+
+
+
+
+
+
+
+
+

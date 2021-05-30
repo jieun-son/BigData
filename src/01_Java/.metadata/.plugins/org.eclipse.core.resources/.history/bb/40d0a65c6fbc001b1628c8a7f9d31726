@@ -1,0 +1,9 @@
+package com.lect.ex03_math;
+import java.util.Random;
+public class Ex03_random {
+	public static void main(String[] args) {
+		System.out.println((int)(Math.random()*45)+1);
+		Random random = new Random();
+		System.out.println("int ³­¼ö : " + random.nextInt());
+	}
+}

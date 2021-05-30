@@ -1,0 +1,16 @@
+package com.lect.ex5_lib;
+
+import java.util.GregorianCalendar;
+
+public class Test {
+	public static void main(String[] args) {
+		BookLib book1 = new BookLib("890¤¡-01","java","È«±æµ¿");
+		BookLib book2 = new BookLib("890¤¡-11","oracle","È«±æµ¿");
+		try {
+			book1.checkOut("ÀÌºô·Á");
+		} catch (Exception e) {
+			System.out.println(e.getMessage());
+		}
+		book1.setCheckOutDate(new GregorianCalendar(2021, 4, 4).getTimeInMillis());
+	}
+}

@@ -1,0 +1,12 @@
+package com.lect.ex04_object;
+import java.util.Random;
+public class Ex02_cardTestMain {
+	public static void main(String[] args) {
+		Card[] card = {new Card('¢½', 3),new Card('¢½', 1),
+				new Card('¢½', 2), new Card('¡Þ', 2)};
+		Random random = new Random();
+		char[] kinds = {'¢½', '¡Þ', '¢¿', '¢»'};
+		Card com = new Card(kinds[random.nextInt(4)], random.nextInt(13)+1);
+		System.out.println(com);
+	}
+}

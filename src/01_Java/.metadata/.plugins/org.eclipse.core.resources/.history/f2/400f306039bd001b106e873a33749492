@@ -1,0 +1,8 @@
+package com.lect.ex5_lib;
+
+public class Test {
+	public static void main(String[] args) {
+		BookLib book1 = new Book("890¤¡-01","java","È«±æµ¿");
+		BookLib book2 = new Book()
+	}
+}

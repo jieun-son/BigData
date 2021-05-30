@@ -1,0 +1,10 @@
+package com.lect.ex01_string;
+import java.util.Scanner;
+public class Ex05 {
+	public static void main(String[] args) {
+		String[] tels = {"010-9999-9999",
+				 		"010-8888-8888",
+				 		"010-7777-8888"};
+		Scanner sc = new Scanner(System.in);
+	}
+}

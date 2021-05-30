@@ -1,5 +1,0 @@
-package com.lect.ex11_account;
-
-public class CheckingAccount extends Account {
-
-}

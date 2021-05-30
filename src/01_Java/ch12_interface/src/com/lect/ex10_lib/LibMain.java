@@ -30,12 +30,34 @@ public class LibMain {
 				}
 				if(idx==books.length) {
 					System.out.println("본 도서관에는 해당 도서가 없습니다. 죄송합니다");
-				}else { // 도서가 idx번째에 있다
-					// ★★★★★★★★★★★★
+				}else if(books[idx].getState()==Book.STATE_BORROWED){ //(3)상태체크
+					System.out.println(bTitle+" 도서는 대출중입니다");
+				}else {
+					// (4) 대출인, 대출일 입력 받기
+					System.out.print("대출인은 ?");
+					borrower = sc.next();
+					System.out.print("대출일은 ?");
+					checkOutDate = sc.next();
+					// (5)대출
+					books[idx].checkOut(borrower, checkOutDate);
 				}
 				break;
 			case 2:
-				System.out.println("반납로직은 여기");
+				// (1) 책입력 -> (2)책조회 -> (3)반납
+				// (1) 책입력
+				System.out.print("반납할 책 이름은? ");
+				bTitle = sc.next();
+				// (2) 책조회
+				for(idx=0 ; idx<books.length ; idx++) {
+					if(bTitle.equals(books[idx].getBookTitle())) {
+						break;
+					}
+				}
+				if(idx==books.length) {
+					System.out.println("해당 도서는 본 도서관의 책이 아닙니다");
+				}else { // (3) 반납
+					books[idx].checkIn();
+				}
 				break;
 			case 3:
 				System.out.println("도서 현황입니다");

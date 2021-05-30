@@ -1,0 +1,16 @@
+package com.lect.ex01_string;
+
+public class Ex10_speedChk {
+	public static void main(String[] args) {
+		String str = "A";
+		// 시작시간 측정
+		long start = System.currentTimeMillis();
+		System.out.println(start);
+		// str 10만번 바꾸기
+		// 끝나는 시간 측정
+		
+		StringBuffer strBuff = new StringBuffer("A");
+		
+		StringBuilder strBuil = new StringBuilder("A");
+	}
+}

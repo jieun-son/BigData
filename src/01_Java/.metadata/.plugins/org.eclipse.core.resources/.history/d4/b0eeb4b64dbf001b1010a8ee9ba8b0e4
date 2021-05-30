@@ -1,0 +1,14 @@
+package com.lect.ex3_readerWriter;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.Reader;
+public class Ex01_Reader {
+	public static void main(String[] args) {
+		Reader reader = null;
+		try {
+			reader = new FileReader("txtFile/inTest.txt");
+		} catch (FileNotFoundException e) {
+			System.out.println(e.getMessage());
+		} 
+	}
+}

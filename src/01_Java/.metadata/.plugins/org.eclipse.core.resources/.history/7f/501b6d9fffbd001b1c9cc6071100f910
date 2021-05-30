@@ -1,0 +1,5 @@
+package com.lect.ex3_set;
+public class Student {
+	private int grade;
+	private String name;
+}

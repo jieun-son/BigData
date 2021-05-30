@@ -1,7 +1,0 @@
-package com.lect.ex5_momChild;
-
-public class ChildTestMain {
-	public static void main(String[] args) {
-		
-	}
-}

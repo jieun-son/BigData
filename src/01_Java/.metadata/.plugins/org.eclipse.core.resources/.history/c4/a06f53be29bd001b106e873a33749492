@@ -1,0 +1,12 @@
+package com.lect.ex2_throws;
+
+public class ThrowsEx {
+	public ThrowsEx() {
+		actionC();
+	}
+	private void actionC() {
+		System.out.println("actionC 전반부");
+		actionB();
+		System.out.println("actionC 후반부");
+	}
+}

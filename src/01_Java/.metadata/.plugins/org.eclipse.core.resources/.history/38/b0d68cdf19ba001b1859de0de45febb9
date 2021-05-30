@@ -1,0 +1,23 @@
+package strategy.step3;
+
+public class SuperRobot extends Robot {
+
+	@Override
+	public void actionFly() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void actionMissile() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void actionKnife() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

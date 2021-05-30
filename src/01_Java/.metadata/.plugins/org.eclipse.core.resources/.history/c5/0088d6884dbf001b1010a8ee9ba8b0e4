@@ -1,0 +1,8 @@
+package com.lect.ex3_readerWriter;
+import java.io.Reader;
+public class Ex01_Reader {
+	public static void main(String[] args) {
+		FileReader reader = null;
+		reader = new 
+	}
+}

@@ -1,0 +1,9 @@
+package singleton.step2;
+
+public class FirstClass {
+	public FirstClass() {
+		SingletonClass singletonObject = SingletonClass.getInstance();
+		System.out.println("FirstClassÇü °´Ã¼ »ý¼º");
+		System.out.println(singletonObject.getI());
+	}
+}

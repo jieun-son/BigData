@@ -1,0 +1,10 @@
+package com.lect.ex02_date;
+
+public class TestMain {
+	public static void main(String[] args) {
+		Sawon s1 = new Sawon("a01","홍길동",Part.COMPUTER);
+		Sawon s2 = new Sawon("b01","마길동",Part.ACCOUNTING);
+		System.out.println(s1);
+		System.out.println(s2);
+	}
+}

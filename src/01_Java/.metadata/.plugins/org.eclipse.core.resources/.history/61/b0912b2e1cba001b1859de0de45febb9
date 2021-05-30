@@ -1,0 +1,10 @@
+package strategy.step4.component;
+
+public class KnifeNo implements KnifeImpl {
+
+	public void knife() {
+		
+
+	}
+
+}

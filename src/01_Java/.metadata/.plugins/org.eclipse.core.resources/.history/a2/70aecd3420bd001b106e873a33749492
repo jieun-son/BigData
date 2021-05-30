@@ -1,0 +1,8 @@
+package ch15_exception;
+
+public class Ex {
+	public static void main(String[] args) {
+		int[] a;
+		a[0] = 10;
+	}
+}

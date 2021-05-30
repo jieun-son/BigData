@@ -1,0 +1,36 @@
+package com.lect.ex02_date;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.GregorianCalendar;
+
+import com.lect.ex01_string.Friend;
+public class Ex05 {
+	public static void main(String[] args) {
+		Friend[] friends = {
+				new Friend("홍길동", "010-9999-9999", "05-24"),
+				new Friend("신길동", "010-8888-8888", "08-03"),
+				new Friend("마미숙", "010-7777-8888", "01-14")};
+		// 오늘 생일인 친구가 있으면 그 친구 정보 출력
+		// 오늘 생일인 친구가 없으면 오늘 생일자는 없다고 출력
+		Date today = new Date();
+		GregorianCalendar today1 = new GregorianCalendar();
+		SimpleDateFormat sdf = new SimpleDateFormat("MM-dd");
+		String strToday = sdf.format(today);
+		System.out.println(strToday);
+		strToday = sdf.format(today1.getTime());
+		System.out.println(strToday);
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

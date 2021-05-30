@@ -1,0 +1,6 @@
+package com.lect.ex1_list;
+public class Vector {
+	public static void main(String[] args) {
+		java.util.Vector vec = new java.util.Vector();
+	}
+}

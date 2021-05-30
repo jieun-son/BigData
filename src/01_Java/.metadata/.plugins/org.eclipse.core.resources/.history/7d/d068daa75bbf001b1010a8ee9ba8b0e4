@@ -1,0 +1,8 @@
+package com.lect.ex6_quiz;
+import java.util.Scanner;
+public class MainTestOutputStream {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		String keepgoing, name, phone, birth, address;
+	}
+}

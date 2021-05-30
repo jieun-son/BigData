@@ -1,0 +1,11 @@
+package strategy.step4.component;
+
+public class FlyYes implements FlyImpl {
+
+	@Override
+	public void fly() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

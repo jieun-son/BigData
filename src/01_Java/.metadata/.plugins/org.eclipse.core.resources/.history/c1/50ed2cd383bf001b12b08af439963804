@@ -1,0 +1,7 @@
+package com.lect.ex1_awt;
+
+import java.awt.Frame;
+
+public class Ex01 extends Frame{
+	
+}

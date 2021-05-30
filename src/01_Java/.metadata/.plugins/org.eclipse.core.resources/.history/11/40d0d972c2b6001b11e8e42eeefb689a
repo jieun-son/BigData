@@ -1,7 +1,0 @@
-package com.lect.ex05_override;
-
-public class TestMain {
-	public static void main(String[] args) {
-		ParentClass pObj1 = new ParentClass();
-	}
-}

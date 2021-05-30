@@ -1,0 +1,6 @@
+package com.lect.ex1_list;
+public class Ex01_ArrayList {
+	public static void main(String[] args) {
+		String[] array = new String[3];
+	}
+}

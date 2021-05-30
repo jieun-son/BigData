@@ -1,0 +1,7 @@
+package com.lect.ex5_lib;
+
+public class BookTestMain {
+	public static void main(String[] args) {
+		
+	}
+}

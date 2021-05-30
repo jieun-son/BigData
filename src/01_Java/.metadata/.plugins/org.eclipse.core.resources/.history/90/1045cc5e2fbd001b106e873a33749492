@@ -1,0 +1,9 @@
+package com.lect.ex3_exceptionEx;
+
+public class Ex {
+	public static void main(String[] args) {
+		String strNo = "    10 ";
+		int no = Integer.parseInt(strNo.trim());
+		System.out.println(no+1);
+	}
+}

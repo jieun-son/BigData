@@ -1,0 +1,22 @@
+package com.lect.ex2_map;
+import java.util.ArrayList;
+import java.util.HashMap;
+public class Ex01_HashMap {
+	public static void main(String[] args) {
+		ArrayList<String> list = new ArrayList<String>();
+		list.add("aaa");
+		System.out.println(list.get(0));
+		HashMap<Integer, String> hashmap = new HashMap<Integer, String>();
+		hashmap.put(11, "str11");
+		hashmap.put(20, "str20");
+		hashmap.put(33, "str30");
+		System.out.println(hashmap.get(20));
+		System.out.println("removeÀü : "+hashmap);
+	}
+}
+
+
+
+
+
+

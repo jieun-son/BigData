@@ -1,0 +1,15 @@
+package com.lect.ex2_data;
+import java.io.DataOutputStream;
+import java.io.FileOutputStream;
+import java.io.OutputStream;
+import java.util.Scanner;
+public class Ex03_ProductWrite {
+	public static void main(String[] args) {
+		// n을 입력할 때까지 재고(상품명, 가격, 재고량)을 파일로 출력
+		Scanner scanner = new Scanner(System.in);
+		String answer;
+		OutputStream fos = null;
+		DataOutputStream dos = null;
+		fos = new FileOutputStream("src/com/lect/ex2_data/product.dat");
+	}
+}

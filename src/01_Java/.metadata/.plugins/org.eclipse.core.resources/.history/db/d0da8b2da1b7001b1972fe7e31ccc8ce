@@ -1,7 +1,0 @@
-package com.lect.ex04_shape;
-// Circle, Triangle, Rectangle
-public class Shape {
-	public void draw() {
-		System.out.println(" ±×·Á¿ä");
-	}
-}

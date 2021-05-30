@@ -1,0 +1,16 @@
+package com.lect.ex01_string;
+
+import java.util.Scanner;
+
+public class Ex03_Quiz_juminNo {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("주민번호 ?");
+		String jumin = scanner.next();
+		int gender = Integer.parseInt(jumin.substring(7,8));
+		String str = (gender==1 || gender ==3) ? "남자" :
+			(gender==2 || gender==4)? "여자" : "떼끼";
+		System.out.printf("당신은 %s입니다",str);
+		scanner.close();
+	}
+}

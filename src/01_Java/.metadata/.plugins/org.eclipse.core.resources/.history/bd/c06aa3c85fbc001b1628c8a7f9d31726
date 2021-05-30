@@ -1,0 +1,10 @@
+package com.lect.ex02_date;
+import com.lect.ex01_string.Friend;
+public class Ex05 {
+	public static void main(String[] args) {
+		Friend[] friends = {
+				new Friend("È«±æµ¿", "010-9999-9999", "05-24"),
+				new Friend("½Å±æµ¿", "010-8888-8888", "08-14"),
+				new Friend("¸¶¹Ì¼÷", "010-7777-8888", "01-14")};
+	}
+}
