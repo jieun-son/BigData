@@ -131,8 +131,8 @@ __SELECT ename FROM emp WHERE hiredate >= '82/01/01' AND hiredate <= '82/12/31';
 SELECT empno,ename,job,sal,hiredate,deptno FROM emp where hiredate>=to_date('1982/01/01', 'yyyy/mm/dd') and hiredate <= to_date('1982/12/31', 'yyyy/mm/dd');__  
 __SELECT empno,ename,job,sal,hiredate,deptno FROM emp where hiredate LIKE ‘82%’;__  
 EMP 테이블에서 입사일이 1월인 사원의 EMPNO, ENAME, JOB, SAL, HIREDATE을 출력하시오  
-__SELECT EMPNO, ENAME, JOB, SAL, HIREDATE FROM EMP WHERE HIREDATE LIKE '__/01/__';  
-SELECT empno,ename,job,sal,comm,deptno FROM emp WHERE comm IS NULL;  
+__SELECT EMPNO, ENAME, JOB, SAL, HIREDATE FROM EMP WHERE HIREDATE LIKE '__/01/__';__  
+__SELECT empno,ename,job,sal,comm,deptno FROM emp WHERE comm IS NULL;  
 SELECT ename, deptno FROM emp WHERE deptno IN (10, 30);  
 SELECT ename, deptno FROM emp WHERE deptno NOT IN (10, 30);  
 SELECT empno,ename,job,sal,deptno FROM emp WHERE job NOT IN ('MANAGER','CLERK','ANALYST');  
