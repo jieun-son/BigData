@@ -3,7 +3,7 @@ FROM 테이블명
 [WHERE condition]  
 [ORDER BY {column, expression} [ASC|DESC]] ;__  
   
-  <br>
+  <br> 
   
 SELECT : 원하는 컬럼 선택  
 *:  테이블의 모든 column 출력  
